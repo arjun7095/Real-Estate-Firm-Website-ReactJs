@@ -1,0 +1,32 @@
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .card-wrapper {
+    margin: 10px;
+  }
+  .card {
+      width: 400px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    .image-container {
+      position: relative;
+    }
+    .card-content {
+      padding: 10px;
+    }
+.buy-p{
+    color:rgb(88, 84, 84);
+    margin-left: 5px;
+    font-size: 15px;
+}
+.buy-p1{
+    color: black;
+    margin-left: 5px;
+    font-size: 20px;
+}
